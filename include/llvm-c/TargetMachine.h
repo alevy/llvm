@@ -39,7 +39,10 @@ typedef enum {
     LLVMRelocDefault,
     LLVMRelocStatic,
     LLVMRelocPIC,
-    LLVMRelocDynamicNoPic
+    LLVMRelocDynamicNoPic,
+    LLVMRelocROPI,
+    LLVMRelocRWPI,
+    LLVMRelocROPIRWPI,
 } LLVMRelocMode;
 
 typedef enum {
